@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --preto: #000000;
+    --alto-contraste-fundo: #ffffff;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffffff;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    background-image: url(img/depositphotos_54143819-stock-photo-boxing-ring-spotlit-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #000000;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 600;
+    width: 200px;
+}
+
+.nav-link:hover {
+    color: #4a4a4a;
+}
+
+.inicio-fundo {
+    background-image: url('img/top-5-gervonta-davis-knockouts-v0-fL0fYvmyOcD0PgobzL8TEHGltAIRyqRula3sS3qPYdE.webp');
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* Botão Quero Conhecer */
+.botao-inicio {
+    background-color: red !important;   /* Vermelho normal */
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.botao-inicio:hover {
+    background-color: black !important; /* Preto ao passar o mouse */
+    color: white;
+}
+
+.display-4 {
+    text-shadow: -5px 5px red;
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: red;
+}
+
+#galeria {
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('img/pngtree-a-nighttime-3d-render-of-an-arena-boxing-ring-encircled-by-image_3736365.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #ffffff;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #ffffff;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}
+
+.alto-contraste {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link {
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
+}
+
+.logo {
+    max-width: 125px;
+    height: auto;
+    display: block;
+    margin: 0%;
+}
